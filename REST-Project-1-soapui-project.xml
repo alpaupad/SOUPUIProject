@@ -1492,6 +1492,12 @@ declare namespace m='http://www.oorsprong.org/websamples.countryinfo';
           </con:restRequest>
         </con:config>
       </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="733bb009-dbcd-47c8-8f40-5baf03bc4eaf">
+        <con:settings/>
+        <con:config>
+          <script/>
+        </con:config>
+      </con:testStep>
       <con:properties/>
     </con:testCase>
     <con:properties/>
@@ -1500,4 +1506,5 @@ declare namespace m='http://www.oorsprong.org/websamples.countryinfo';
   <con:wssContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
+  <con:sensitiveInformation/>
 </con:soapui-project>
